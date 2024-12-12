@@ -21,7 +21,6 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    //'object-curly-spacing': ['error', 'never'], // Adicionado para remover espaços dentro das chaves
-    //'array-bracket-spacing': ['error', 'always'], // Adicionado para remover espaços dentro dos colchetes
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
   },
 };
